@@ -20,14 +20,14 @@ A lightweight and efficient web app to extract text from images using Tesseract 
 
 ### 🔹 Clone the repository
    ```bash
-git clone https://github.com/your-username/ocr-translator-app.git
+git clone https://github.com/HaziqImran18/OCR-Translation.git
 cd ocr-translator-app
    ```
 
 ### 🔹 Create and activate virtual environment (optional but recommended)
 ```bash
-python -m venv venv
-venv\Scripts\activate
+python -m venv translator
+translator\Scripts\activate
 ```
 
 ### 🔹 Install dependencies
@@ -55,16 +55,6 @@ streamlit run app.py
 
 ---
 
-## 🖼️ Screenshots
-
-📌 Add your screenshots here using the format below:
-```scss
-![Upload Image](screenshots/upload.png)
-![Extracted & Translated Text](screenshots/translated.png)
-```
-
----
-
 ## 🌐 Supported Languages
 
 You can extend or change translation languages easily. Current supported examples:
@@ -85,7 +75,6 @@ ocr-translator-app/
 ├── app.py               # Streamlit application
 ├── requirements.txt     # Python dependencies
 ├── README.md            # Project overview and usage
-└── screenshots/         # Add screenshots of app usage
 ```
 
 ---
