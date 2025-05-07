@@ -5,7 +5,24 @@ A lightweight and efficient web app to extract text from images using Tesseract 
 
 ---
 
+## 🔍 Features
+
+- ✅ Upload images in `.jpg`, `.jpeg`, or `.png` formats  
+- ✅ OCR powered by **Tesseract**  
+- ✅ Language translation via **Google Translate API**  
+- ✅ Translates to Urdu, French, German, and more  
+- ✅ Clean sidebar-based UI  
+- ✅ Text preview and optional download  
+
+---
+
 ## 📦 Setup Instructions
+
+### 🔹 Clone the repository
+   ```bash
+git clone https://github.com/your-username/ocr-translator-app.git
+cd ocr-translator-app
+   ```
 
 ### 🔹 Create and activate virtual environment (optional but recommended)
 ```bash
